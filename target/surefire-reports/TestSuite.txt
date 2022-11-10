@@ -1,0 +1,188 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 32, Failures: 31, Errors: 0, Skipped: 0, Time elapsed: 23.144 s <<< FAILURE! - in TestSuite
+testGetApproval on testGetApproval(com.NFT.modules.spring.EventTest)(com.NFT.modules.spring.EventTest)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+testGetTokenId on testGetTokenId(com.NFT.modules.spring.EventTest)(com.NFT.modules.spring.EventTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+testEtheGetlogs on testEtheGetlogs(com.NFT.modules.spring.EventTest)(com.NFT.modules.spring.EventTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+TestTransactionReceipt on TestTransactionReceipt(com.NFT.modules.spring.EventTest)(com.NFT.modules.spring.EventTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+getTransactionReceipt on getTransactionReceipt(com.NFT.modules.spring.EventTest)(com.NFT.modules.spring.EventTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+testQueryTotalNFT on testQueryTotalNFT(com.NFT.modules.spring.QueryTest)(com.NFT.modules.spring.QueryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+testGetInitailSupply on testGetInitailSupply(com.NFT.modules.spring.QueryTest)(com.NFT.modules.spring.QueryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+testGetAllowance on testGetAllowance(com.NFT.modules.spring.QueryTest)(com.NFT.modules.spring.QueryTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+testGetPersonalBalance on testGetPersonalBalance(com.NFT.modules.spring.QueryTest)(com.NFT.modules.spring.QueryTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+TestJSONPRC on TestJSONPRC(com.NFT.modules.spring.JSONRPCTest)(com.NFT.modules.spring.JSONRPCTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+TestTransfer on TestTransfer(com.NFT.modules.spring.ERC20TransactionTest)(com.NFT.modules.spring.ERC20TransactionTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+TestTransferFrom on TestTransferFrom(com.NFT.modules.spring.ERC20TransactionTest)(com.NFT.modules.spring.ERC20TransactionTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+TestApproval on TestApproval(com.NFT.modules.spring.ERC20TransactionTest)(com.NFT.modules.spring.ERC20TransactionTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+TestERC20contractService on TestERC20contractService(com.NFT.modules.spring.TokenTransactionTest)(com.NFT.modules.spring.TokenTransactionTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+TestGetTransactionReceipt on TestGetTransactionReceipt(com.NFT.modules.spring.TokenTransactionTest)(com.NFT.modules.spring.TokenTransactionTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+TestMintTokenService on TestMintTokenService(com.NFT.modules.spring.TokenTransactionTest)(com.NFT.modules.spring.TokenTransactionTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+TestAsyncGetTransactionReceipt on TestAsyncGetTransactionReceipt(com.NFT.modules.spring.TokenTransactionTest)(com.NFT.modules.spring.TokenTransactionTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+TestGetBlockNumber on TestGetBlockNumber(com.NFT.modules.spring.TokenTransactionTest)(com.NFT.modules.spring.TokenTransactionTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+TestGetBlockTime on TestGetBlockTime(com.NFT.modules.spring.TokenTransactionTest)(com.NFT.modules.spring.TokenTransactionTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+TestConvertData on TestConvertData(com.NFT.modules.spring.TokenTransactionTest)(com.NFT.modules.spring.TokenTransactionTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+TestTokenApproval on TestTokenApproval(com.NFT.modules.spring.TokenTransactionTest)(com.NFT.modules.spring.TokenTransactionTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+TestERC721contractService on TestERC721contractService(com.NFT.modules.spring.TokenTransactionTest)(com.NFT.modules.spring.TokenTransactionTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+testGetNumberOFNFTS on testGetNumberOFNFTS(com.NFT.modules.spring.AccountTest)(com.NFT.modules.spring.AccountTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+getReturnValues on getReturnValues(com.NFT.modules.spring.AccountTest)(com.NFT.modules.spring.AccountTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+testGetBalance on testGetBalance(com.NFT.modules.spring.AccountTest)(com.NFT.modules.spring.AccountTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+testGetKey on testGetKey(com.NFT.modules.spring.AccountTest)(com.NFT.modules.spring.AccountTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+testUnlockAccount on testUnlockAccount(com.NFT.modules.spring.AccountTest)(com.NFT.modules.spring.AccountTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+testEthGetLogs on testEthGetLogs(com.NFT.modules.spring.GetTokenTest)(com.NFT.modules.spring.GetTokenTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NumberFormatException: For input string: "t"
+	at com.NFT.modules.spring.GetTokenTest.testEthGetLogs(GetTokenTest.java:88)
+
+testSelectList on testSelectList(com.NFT.modules.spring.MapperTest)(com.NFT.modules.spring.MapperTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+stopMiningTest on stopMiningTest(com.NFT.modules.spring.isMiningTest)(com.NFT.modules.spring.isMiningTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+
+isMiningTest on isMiningTest(com.NFT.modules.spring.isMiningTest)(com.NFT.modules.spring.isMiningTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback-spring.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: 文档中根元素前面的标记必须格式正确。
+

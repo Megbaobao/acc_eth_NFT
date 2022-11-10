@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.NFT.modules.Utils.fileUpload.PreReadUploadConfig",
+      "name": "preread",
+      "type": "com.NFT.modules.Utils.fileUpload.PreReadUploadConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.NFT.modules.Utils.fileUpload.PreReadUploadConfig",
+      "name": "preread.upload-path",
+      "type": "java.lang.String"
+    }
+  ]
+}

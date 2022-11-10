@@ -1,0 +1,193 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+
+
+	<groupId>com.edu.lesson</groupId>
+	<artifactId>ethereum-web3j</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+
+
+	<name>ethereum-web3j</name>
+	<url>http://maven.apache.org</url>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.2.2.RELEASE</version>
+	</parent>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
+
+	<dependencies>
+
+<!--Spring-->
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<version>2.2.7.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<version>2.2.7.RELEASE</version>
+		</dependency>
+
+<!--web3j-->
+		<dependency>
+			<groupId>org.web3j</groupId>
+			<artifactId>core</artifactId>
+			<version>3.4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.web3j</groupId>
+			<artifactId>geth</artifactId>
+			<version>3.4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.web3j</groupId>
+			<artifactId>web3j-spring-boot-starter</artifactId>
+			<version>1.6.0</version>
+		</dependency>
+
+
+		<!--mybatisplus-->
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus-boot-starter</artifactId>
+			<version>3.3.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus</artifactId>
+			<version>3.3.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus-extension</artifactId>
+			<version>3.3.1</version>
+		</dependency>
+
+<!--		mysql-->
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.26</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid-spring-boot-starter</artifactId>
+			<version>1.1.21</version>
+		</dependency>
+
+
+<!--		swagger-->
+
+
+
+<!--		<dependency>-->
+<!--			<groupId>org.mybatis.spring.boot</groupId>-->
+<!--			<artifactId>mybatis-spring-boot-starter</artifactId>-->
+<!--			<version>2.1.1</version>-->
+<!--		</dependency>-->
+
+
+		<!-- 配置 -->
+		<dependency>
+			<groupId> org.springframework.boot </groupId>
+			<artifactId> spring-boot-configuration-processor </artifactId>
+			<optional> true </optional>
+			<version>1.5.10.RELEASE</version>
+		</dependency>
+
+<!--		<dependency>-->
+<!--			<groupId>com.spring4all</groupId>-->
+<!--			<artifactId>swagger-spring-boot-starter</artifactId>-->
+<!--
+		<version>1.9.1.RELEASE</version>-->
+		<dependency>
+		<groupId>net.logstash.logback</groupId>
+		<artifactId>logstash-logback-encoder</artifactId>
+		<version>5.0</version>
+		</dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version>
+            <scope>compile</scope>
+        </dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>RELEASE</version>
+			<scope>test</scope>
+		</dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>RELEASE</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.web3j</groupId>
+				<artifactId>web3j-maven-plugin</artifactId>
+				<version>0.3.1</version>
+				<configuration>
+					<!-- 生成java代码的包名 -->
+					<packageName>com.NFT.modules.erc20</packageName>
+					<!-- 生成java代码存放路径 -->
+					<sourceDestination>src/main/java</sourceDestination>
+					<nativeJavaType>true</nativeJavaType>
+					<soliditySourceFiles>
+						<!-- 智能合约文件路径 -->
+						<directory>src/main/contract</directory>
+						<includes>
+							<include>**/SimpleToken.sol</include>
+						</includes>
+					</soliditySourceFiles>
+				</configuration>
+			</plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>9</source>
+                    <target>9</target>
+                </configuration>
+            </plugin>
+        </plugins>
+	</build>
+
+</project>
